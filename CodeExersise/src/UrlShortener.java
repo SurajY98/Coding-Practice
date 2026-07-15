@@ -43,7 +43,7 @@ public class UrlShortener {
 
         UrlShortener urlShortener = new UrlShortener();
         String shortUrl = urlShortener.shortenUrl("https://google.com");
-        String shortUrl1 = urlShortener.shortenUrl("https://chatgpt.com/c/6a568665-135c-83e8-a5d1-e3482113ce01");
+        String shortUrl1 = urlShortener.shortenUrl("https://chatgpt.com/g/g-p-6a55f42192848191aed76a886b6e8b58-accenture-interview-questions/c/6a561687-70f4-83ee-8fc2-ed023e9db770");
         System.out.println(shortUrl1);
 
         System.out.println(urlShortener.restoreUrl(shortUrl1));
