@@ -14,7 +14,6 @@ public class ArraysFrequency {
 //        Sort according to frequency
         List<Integer> result = inputArray.stream().sorted(
                 (a, b) -> frequencyMap.get(b).compareTo(frequencyMap.get(a))).toList();
-
         System.out.println(result);
     }
 }
