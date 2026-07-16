@@ -9,11 +9,16 @@ public class ArraysFrequency {
         List<Integer> inputArray = Arrays.asList(2,2,1,2,4,3,4,1);
 
 //        Frequency count
-        Map<Integer, Long> frequencyMap =  inputArray.stream().collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
+        Map<Integer, Long> frequencyMap =  inputArray.stream()
+                .collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
 
 //        Sort according to frequency
         List<Integer> result = inputArray.stream().sorted(
-                (a, b) -> frequencyMap.get(b).compareTo(frequencyMap.get(a))).toList();
+                (a, b) -> {
+                    int compare = frequencyMap.get(b).compareTo(frequencyMap.get(a));
+                    return  compare != 0 ? compare : Integer.compare(a, b);
+                }
+        ).collect(Collectors.toList());
         System.out.println(result);
     }
 }
