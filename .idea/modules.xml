@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CodeExersise/CodeExersise.iml" filepath="$PROJECT_DIR$/CodeExersise/CodeExersise.iml" />
       <module fileurl="file://$PROJECT_DIR$/CoreJava/CoreJava.iml" filepath="$PROJECT_DIR$/CoreJava/CoreJava.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/InterviewPrepForClient.iml" filepath="$PROJECT_DIR$/.idea/InterviewPrepForClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/InterviewPrep.iml" filepath="$PROJECT_DIR$/.idea/InterviewPrep.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java8Stream/Java8Stream.iml" filepath="$PROJECT_DIR$/Java8Stream/Java8Stream.iml" />
     </modules>
   </component>
