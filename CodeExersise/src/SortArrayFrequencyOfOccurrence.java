@@ -27,3 +27,7 @@ public class SortArrayFrequencyOfOccurrence {
         System.out.println(Arrays.toString(result));
     }
 }
+
+//Why convert int[] to Integer[]?
+//Arrays.sort(int[]) does not accept a custom comparator.
+//Comparators work only with object types like Integer.
