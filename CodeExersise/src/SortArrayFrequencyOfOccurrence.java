@@ -21,7 +21,7 @@ public class SortArrayFrequencyOfOccurrence {
             if (compare != 0)
                 return compare;
 
-            return Integer.compare(a,b);
+            return Integer.compare(a,b); //When two numbers have the same frequency, we need a secondary sorting rule. which number come first get place first.
         });
 
         System.out.println(Arrays.toString(result));
