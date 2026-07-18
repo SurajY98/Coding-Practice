@@ -27,3 +27,7 @@ public class arrayHasSameBeginAndEnd {
         System.out.println(arraySameBeginAndEndStream(arr,0));
     }
 }
+//What if x = 0?
+//Loop runs zero times.
+//No mismatches are found.
+//Return true which is correct because two empty groups are equal.
